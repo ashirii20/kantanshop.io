@@ -1,4 +1,4 @@
-# finalprojappdev
+# finalprojappdev - kantanshop.io
 The final project for CCS0043L - Application Development and Emerging Technologies made by The Girlie Pops
 Members:
 1. Aiel Wren Ramos
