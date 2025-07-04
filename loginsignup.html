@@ -3,7 +3,7 @@
 <head>
   <meta charset = "UTF-8">
   <title>Login / Signup</title>
-  <link rel = "stylesheet" href = "finalprojstyle.css">
+  <link rel = "stylesheet" href = "lsdashboard.css">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
   </header>
 
   <!-- main content area -->
-  <div class = "main-content">
+  <main class="main-content">
     <!-- Left image section -->
     <div class = "image-box">
         <img src = "loginimage.png" alt = "loginimage" class = "login">
@@ -66,20 +66,21 @@
         <button type = "submit" class = "login-btn">Done</button>
     </form>
 
-    <!-- extra options, no function yet -->
+    <!-- extra options, only functions for demo(fake) -->
     <div class = "extra-options">
         <hr>
             <p>Create an account: <a href = "#" onclick="showForm('signup'); return false;">Sign up</a></p>
             <p class = "or-text">OR</p>
             <div class = "social-buttons">
-                <button class = "google-btn">
-                  <img src = "googleIcon.png" alt = "Google" class = "btn-icon">Google</button>
-                <button class = "facebook-btn">
-                  <img src="fbIcon.png" alt="Google" class="btn-icon">Facebook</button>
+                <a class = "google-btn" href = "https://accounts.google.com/login" target = "_blank">
+                    <img src = "googleIcon.png" alt = "Google" class = "btn-icon">Google</a>
+                <a class = "facebook-btn" href = "https://www.facebook.com/login" target = "_blank">
+                    <img src = "fbIcon.png" alt = "Facebook" class = "btn-icon">Facebook</a>
             </div>
         </div>
     </div>
   </div>
+  </main>
 
     <script>
         function showForm(formName) {
