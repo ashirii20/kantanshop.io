@@ -120,9 +120,9 @@ $paginatedProducts = array_slice(array_values($filteredProducts),
                   </button>
                 </form>
 
-                <form action = "wishlist.php" method = "POST" style = "display:inline;">
+                <form action = "productdetail.php" method = "POST" style = "display:inline;">
                   <input type = "hidden" name = "product" value = "<?= htmlspecialchars($product['name']) ?>">
-                  <button type = "submit" class = "icon-btn" on-click = "addToWishlist('<?= htmlspecialchars($product['name']) ?>')">
+                  <button type = "submit" class = "icon-btn">
                     <img src = "heart.png" class = "btn-icon" alt = "Wishlist">
                   </button>
                 </form>
@@ -141,12 +141,5 @@ $paginatedProducts = array_slice(array_values($filteredProducts),
         </div>
 
     </section>
-
-    <script>
-    function addToWishlist(productName) {
-      window.location.href = 'wishlist.php?product=' + encodeURIComponent(productName);
-    }
-    </script>
-    
   </div>
 </body>
