@@ -15,7 +15,7 @@ if ($newPassword === $confirmPassword && $newPassword !== '') {
 <head>
   <meta charset = "UTF-8">
   <title>Reset Password</title>
-  <link rel = "stylesheet" href = "finalprojstyle.css">
+  <link rel = "stylesheet" href = "ls-userdashboard.css">
 </head>
 
 <body>
