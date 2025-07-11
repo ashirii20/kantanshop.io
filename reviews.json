@@ -1,0 +1,26 @@
+[
+    {
+        "product": "Hatsune Miku Figurine",
+        "user": "MikuFan88",
+        "rating": 3,
+        "review": "Absolutely stunning quality! Worth every peso."
+    },
+    {
+        "product": "Nanashi Mumei Plushie",
+        "user": "PlushieLover",
+        "rating": 5,
+        "review": "Very soft and cute, but a bit smaller than expected."
+    },
+    {
+        "product": "Banana Fish Manga",
+        "user": "MangaReader123",
+        "rating": 5,
+        "review": "A gripping tale of friendship and survival. Highly recommend!"
+    },
+    {
+        "product": "Hatsune Miku Figurine",
+        "user": "helloworld",
+        "rating": 1,
+        "review": "Hopefully i can communicate with the seller more."
+    }
+]
