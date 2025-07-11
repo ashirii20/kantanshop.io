@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Login / Signup</title>
+  <link rel = "stylesheet" href = "ls-userdashboard.css">
+</head>
+<body>
+
+  <!-- navigation bar -->
+  <header>
+    <div class = "navbar">
+      <div class = "nav-left">
+        <img src = "kantanshoplogo.png" alt = "logo" class = "logo">
+      </div>
+      <div class="nav-right">
+         <a href="home.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="contact.html">Contact</a>
+    </div>
+    </div>
+  </header>
+
+  <!-- main content area -->
+  <main class="main-content">
+    <!-- Left image section -->
+    <div class = "image-box">
+        <img src = "loginimage.png" alt = "loginimage" class = "login">
+    </div>
+
+    <!-- login form section -->
+    <div class = "login-box">
+      <!-- Tabs -->
+    <div class = "tabs">
+        <button class = "tab active" onclick = "showForm('login')">Log In</button>
+        <button class = "tab" onclick = "showForm('admin')">Admin</button>
+    </div>
+
+    <!-- user login form -->
+    <form id = "login-form" method = "POST" action = "userlogin.php" class = "form show">
+        <input type = "text" name = "username" placeholder = "Username" required>
+        <input type = "password" name = "password" placeholder = "Password" required>
+        <div class = "forgot"><a href = "#" onclick="showForm('reset')">Forgot password?</a></div>
+        <button type = "submit" class = "login-btn">Log In</button>
+    </form>
+
+    <!-- admin form -->
+    <form id = "admin-form" method = "POST" action = "adminlogin.php" class = "form">
+        <input type = "text" name = "admin_user" placeholder = "Username" required>
+        <input type = "password" name = "admin_pass" placeholder = "Password" required>
+        <button type = "submit" class = "login-btn">Admin Log In</button>
+    </form>
+
+    <!-- sign up form -->
+    <form id = "signup-form" method = "POST" action = "signup.php" class = "form">
+        <input type = "text" name = "new_username" placeholder = "Username" required>
+        <input type = "email" name = "new_email" placeholder = "Email" required>
+        <input type = "password" name = "new_password" placeholder = "Password" required>
+        <button type = "submit" class = "login-btn">Sign Up</button>
+    </form>
+
+    <!-- reset password form -->
+    <form id = "reset-form" method = "POST" action = "resetpassword.php" class = "form">
+        <input type = "text" name = "username" placeholder = "Username" required>
+        <input type = "password" name = "new_password" placeholder = "New Password" required>
+        <input type = "password" name = "confirm_password" placeholder = "Confirm Password" required>
+        <button type = "submit" class = "login-btn">Reset Password</button>
+    </form>
+
+    <!-- extra options, only functions for demo(fake) -->
+    <div class = "extra-options">
+        <hr>
+            <p>Create an account: <a href = "#" onclick="showForm('signup'); return false;">Sign up</a></p>
+            <p class = "or-text">OR</p>
+            <div class = "social-buttons">
+                <a class = "google-btn" href = "https://accounts.google.com/login" target = "_blank">
+                    <img src = "googleIcon.png" alt = "Google" class = "btn-icon">Google</a>
+                <a class = "facebook-btn" href = "https://www.facebook.com/login" target = "_blank">
+                    <img src = "fbIcon.png" alt = "Facebook" class = "btn-icon">Facebook</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  </main>
+
+    <script>
+        function showForm(formName) {
+            //remove 'show' from all forms
+            document.querySelectorAll('.form').forEach(f => f.classList.remove('show'));
+
+            //add 'show' to the selected form
+            const target = document.getElementById(formName + '-form');
+            if (target) target.classList.add('show');
+
+            //update tab buttons
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            if (formName === 'login') tabs[0].classList.add('active');
+            if (formName === 'admin') tabs[1].classList.add('active');
+        }
+    </script>
+
+    <div class = "main-footer">
+      <footer>
+        <div class = "footer-content">
+          <p>&copy; 2025 Kantan Shop. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>
