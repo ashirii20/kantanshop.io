@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Hatsune Miku Figurine",
+    "description": "The 15th Anniversary Figurine from GoodSmile Inc.! Limited Edition Version only.",
+    "price": 16988.04,
+    "image": "hatsunemikufigurine.jpg",
+    "category": "Category 2",
+    "rating": 3
+  },
+
+  {
+    "id": 2,
+    "name": "Nanashi Mumei Plushie",
+    "description": "Soft and cute, can be your cuddle buddy!",
+    "price": 4020.11,
+    "image": "nanashimumeiplush.png",
+    "category": "Category 1",
+    "rating": 5
+  },
+
+  {
+    "id": 3,
+    "name": "Banana Fish Manga",
+    "description": "A classic action-filled manga series that has captivated readers worldwide.",
+    "price": 1900.00,
+    "image": "bananafishmanga.jpg",
+    "category": "Category 2",
+    "rating": 5
+  },
+
+  {
+    "id": 4,
+    "name": "My Hero Academia Manga",
+    "description": "A school action manga series.",
+    "price": 10083.00,
+    "image": "myheroacademiamanga.jpg",
+    "category": "Category 2",
+    "rating": 2
+  },
+
+  {
+    "id": 5,
+    "name": "Nijisanji EN Luxiem Merchandise",
+    "description": "Official merchandise from Nijisanji EN's Luxiem group. 1st Anniversary Edition.",
+    "price": 15000.00,
+    "image": "luxiem1stannivmerch.jpg",
+    "category": "Category 1",
+    "rating": 4
+  },
+
+  {
+    "id": 6,
+    "name": "Ichiran Ramen Take-Home Kit",
+    "description": "A take-home kit from the famous Ichiran Ramen restaurant in Japan.",
+    "price": 1950.00,
+    "image": "ichiranramenhomekit.jpg",
+    "category": "Category 3",
+    "rating": 2
+  },
+
+  {
+    "id": 7,
+    "name": "Kawaii Japanese Stationery Set",
+    "description": "Cute and colorful stationery set featuring popular Japanese characters.",
+    "price": 2345.10,
+    "image": "kawaiijpnstationery.jpg",
+    "category": "Category 5",
+    "rating": 1
+  },
+
+  {
+    "id": 8,
+    "name": "Kracie Popin Cookin DIY Hamburger Kit",
+    "description": "Create your own mini hamburger with this fun DIY kit!",
+    "price": 250.00,
+    "image": "kraciepopincookinkit.png",
+    "category": "Category 3",
+    "rating": 2
+  },
+
+  {
+    "id": 9,
+    "name": "S & B Golden Curry Hot Cubes",
+    "description": "A popular Japanese curry mix that is easy to prepare and delicious.",
+    "price": 210.00,
+    "image": "sbgoldencurry.png",
+    "category": "Category 3",
+    "rating": 5
+  },
+
+  {
+    "id": 10,
+    "name": "BAPE Printed Sweatshirt",
+    "description": "Official BAPE merchandise featuring a unique printed design.",
+    "price": 24390.00,
+    "image": "bapesweatshirt.jpg",
+    "category": "Category 4",
+    "rating": 1
+  }
+]
